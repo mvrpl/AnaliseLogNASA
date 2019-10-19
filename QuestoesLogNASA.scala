@@ -39,7 +39,7 @@ object QuestoesLogNASA{
 		println(s"QTD ERRO 404/DIA:\n${qtdErro404Dia}\n")
 
 		//5. Total Bytes
-		val totalBytes = linhas.map(linha => Try(linha.lift(6).get.toInt).getOrElse(0)).sum
+		val totalBytes = linhas.map(linha => Try(linha.lift(6).get.toInt).getOrElse(0)).sum.toLong
 		println(s"TOTAL BYTES: ${totalBytes}")
 	}
 }
