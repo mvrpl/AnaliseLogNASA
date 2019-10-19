@@ -1,8 +1,3 @@
-//--- COMPILE ---//
-///usr/local/opt/scala@2.11/bin/scalac -classpath (find /usr/local/Cellar/apache-spark/2.4.4/libexec/jars -name "*.jar" -type f | paste -sd ":" -) QuestoesLogNASA.scala -d QuestoesLogNASA.jar
-//--- RUN ---//
-//spark-submit --class mvrpl.me.QuestoesLogNASA --master "local[*]" QuestoesLogNASA.jar 2> /dev/null
-
 package mvrpl.me
 
 import org.apache.spark.sql.SparkSession
