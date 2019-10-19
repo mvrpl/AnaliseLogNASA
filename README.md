@@ -18,14 +18,14 @@ HOSTS UNICOS: 138010
 
 TOTAL ERROS 404: 20868
 
-TOP 5 URLs 404:
+TOP 5 URLs 404:<br />
 (hoohoo.ncsa.uiuc.edu,251)<br />
 (piweba3y.prodigy.com,157)<br />
 (jbiagioni.npt.nuwc.navy.mil,132)<br />
 (piweba1y.prodigy.com,114)<br />
 (www-d4.proxy.aol.com,91)<br />
 
-QTD ERRO 404/DIA:
+QTD ERRO 404/DIA:<br />
 (1995-09-01,26)<br />
 (1995-08-31,551)<br />
 (1995-08-30,539)<br />
